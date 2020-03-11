@@ -1,0 +1,15 @@
+name: srp
+description: Secure Remote Password for dart &amp; flutter
+version: 1.0.0
+author: mao
+homepage: https://github.com/vipycm/srp
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  crypto: ^2.1.4
+
+dev_dependencies:
+  test: ^1.14.2
+
