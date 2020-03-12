@@ -1,3 +1,6 @@
+[![pub package](https://img.shields.io/pub/v/srp.svg?color=important)](https://pub.dev/packages/srp)
+---
+
 # srp
 
 Secure Remote Password for dart &amp; flutter

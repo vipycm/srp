@@ -8,7 +8,7 @@ environment:
 
 dependencies:
   convert: ^2.1.1
-  crypto: ^2.1.4
+  crypto: ^2.1.3
 
 dev_dependencies:
   test: ^1.14.2
