@@ -23,7 +23,7 @@ class Params {
   static final N = BigInt.parse(_input['largeSafePrime'].toString().replaceAll(' ', ''), radix: 16);
   static final g = BigInt.parse(_input['generatorModulo'].toString().replaceAll(' ', ''), radix: 16);
   static final k = H([N, g]);
-  static final int hashOutputBytes = _input["hashOutputBytes"];
+  static final int hashOutputBytes = _input["hashOutputBytes"] as int;
 
   static BigInt H(List args) {
     final output = new AccumulatorSink<Digest>();
